@@ -14,6 +14,7 @@ import json
 from torchvision.models.googlenet import GoogLeNet
 import cv2
 
+
 def train():
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
     print(device)

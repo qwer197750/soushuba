@@ -4,7 +4,7 @@ from cut.googleNet import predict
 from cut.cut_image import cut
 from PIL import Image
 import csv
-
+import pipreqs.pipreqs
 
 def get_code_img(begin_index, n):
     for i in range(begin_index, begin_index+n):
