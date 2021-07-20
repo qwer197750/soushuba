@@ -1,7 +1,7 @@
 import requests as requests
 
-from cut.googleNet import predict
-from cut.cut_image import cut
+from googleNet import predict
+from cut_image import cut
 from PIL import Image
 import csv
 import pipreqs.pipreqs
